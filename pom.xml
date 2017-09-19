@@ -31,6 +31,10 @@
 			<artifactId>spring-context</artifactId>
 			<version>4.3.11.RELEASE</version>
 		</dependency>
-
+		<dependency>
+			<groupId>maven-plugins</groupId>
+			<artifactId>maven-findbugs-plugin</artifactId>
+			<version>1.4</version>
+		</dependency>
 	</dependencies>
 </project>
