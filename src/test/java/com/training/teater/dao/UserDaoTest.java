@@ -30,7 +30,7 @@ public class UserDaoTest {
 		testUser.setEmail(testEmail);
 		dao.save(testUser);
 		User actual = dao.getUserByEmail(testEmail);
-		assertEquals(actual, testUser);
+		assertEquals(testUser,actual );
 	}
 	@Test(expected=RuntimeException.class)
 	public void getUserByEmailNotFound() {
