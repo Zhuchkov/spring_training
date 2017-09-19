@@ -37,7 +37,6 @@ public class TestEvent {
 	}
 	
 	@Test
-	@Ignore
 	public void testAddRemoveAirDates() {
 		int size = event.getAirDates().size();
 		
