@@ -54,7 +54,6 @@ public class TestEvent {
 	}
 	
 	@Test
-	@Ignore
 	public void testCheckAirDates() {
 		assertTrue(event.airsOnDate(LocalDate.now()));
 		assertTrue(event.airsOnDate(LocalDate.now().plusDays(1)));
@@ -73,7 +72,6 @@ public class TestEvent {
 	}
 	
 	@Test
-	@Ignore
 	public void testAddRemoveAuditoriums() {
 		LocalDateTime time = event.getAirDates().first();
 		
@@ -89,7 +87,6 @@ public class TestEvent {
 	}
 	
 	@Test
-	@Ignore
 	public void testAddRemoveAuditoriumsWithAirDates() {
 		LocalDateTime time = LocalDateTime.now().plusDays(10);
 		
@@ -105,7 +102,6 @@ public class TestEvent {
 	}
 	
 	@Test
-	@Ignore
 	public void testNotAddAuditoriumWithoutCorrectDate() {
 		LocalDateTime time = LocalDateTime.now().plusDays(10);
 		

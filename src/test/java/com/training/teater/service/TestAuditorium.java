@@ -17,7 +17,6 @@ import com.training.teater.domain.Auditorium;
 public class TestAuditorium {
 	
 	@Test
-	@Ignore
 	public void testCountVips() {
 		Auditorium a = new Auditorium();
 		a.setVipSeats(Stream.of(1L,2L,3L).collect(Collectors.toSet()));
